@@ -4,7 +4,7 @@ import {AiFillGithub} from "react-icons/ai";
 import {  FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { TypeAnimation } from "react-type-animation";
-import resumePDF from "../../assets/Resume-fazil.pdf";
+import resumePDF from "../../assets/Mohammed fazil(Resume).pdf";
 
 const Hero = () => {
   return (
