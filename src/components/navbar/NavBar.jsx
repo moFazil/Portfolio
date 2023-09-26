@@ -90,12 +90,6 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
   </li>
   </ul>
 ))}
-            <a
-              href="https://www.linkedin.com/in/mohammed-fazil-ab652621a/"
-              className="bg-black text-[1rem] text-white px-8 py-2 rounded-lg font-bold hover:text-yellow-400 md:m-5 md:mx-auto md:w-fit lg:px-3 lg:hidden"
-            >
-              HIRE ME
-            </a>
         </div>
       </nav>
     </div>
