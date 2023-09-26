@@ -85,7 +85,6 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
             className={`flex items-center space-x-11 ${!isOpen ? "md:flex" : "md:right-[0%]"
               } md:flex-col md:absolute m-auto md:top-0 md:right-[-100%] md:w-[78%] md:h-screen md:bg-white `}
           >
-            {/* Use a button tag for better accessibility */}
             <button
               onClick={toggleNav}
               className={`text-3xl hidden md:block relative right-0 top-4 container mx-auto`}
@@ -109,7 +108,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
   </li>
 ))}
             <a
-              href="https://github.com/moFazil"
+              href="https://github.com/moFazil/Portfolio"
               className="bg-black text-[1rem] text-white px-8 py-2 rounded-lg font-bold hover:text-yellow-400 md:m-5 md:block md:mx-auto md:w-fit lg:px-3"
             >
               HIRE ME
