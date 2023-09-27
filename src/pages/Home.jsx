@@ -1,27 +1,17 @@
 import React, { useState } from "react";
-import NavBar from "../Components/Navbar/Navbar";
-import Hero from "../Components/Hero/Hero";
-import Skills from "../Components/Skills/Skills";
-import Work from "../Components/Work/Work";
-import Resume from "../Components/Resume/Resume";
-import Contact from "../Components/Contact/Contact";
-import Footer from "../Components/Footer/Footer";
+import NavBar from "../Components/Navbar/Navbar.jsx";
+import Hero from "../Components/Hero/Hero.jsx";
+import Skills from "../Components/Skills/Skills.jsx";
+import Work from "../Components/Work/Work.jsx";
+import Resume from "../Components/Resume/Resume.jsx";
+import Contact from "../Components/Contact/Contact.jsx";
+import Footer from "../Components/Footer/Footer.jsx";
 
 
 const Home = () => {
-  const [darkMode, setDarkMode] = useState(false);
-  function toggleDarkMode() {
-    setDarkMode((prevDarkMode) => !prevDarkMode);
-  }
+  
   return (
     <>
-      {/* <NavBar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      <Hero darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      <Skills darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      <Work darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      <Resume darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      <Contact darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      <Footer darkMode={darkMode} toggleDarkMode={toggleDarkMode} /> */}
       <NavBar/>
       <Hero/>
       <Skills/>
