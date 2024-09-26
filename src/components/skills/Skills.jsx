@@ -42,8 +42,8 @@ const Skills = ({ darkMode }) => {
               data-aos="zoom-in"
               className="progress flex items-center h-[100%] justify-end md:justify-center"
             >
-              <div className=" flex flex-col gap-6  w-3/4  my-5 md:w-[90%]">
-                <ProgressBar logo={<IoLogoHtml5 />} name={"HTML"} value={95} />
+              <div className=" flex flex-row gap-6  w-3/4  my-5 md:w-[90%]">
+                {/* <ProgressBar logo={<IoLogoHtml5 />} name={"HTML"} value={95} />
                 <ProgressBar logo={<IoLogoCss3 />} name={"CSS"} value={88} />
                 <ProgressBar
                   logo={<SiJavascript />}
@@ -55,14 +55,16 @@ const Skills = ({ darkMode }) => {
                   logo={<SiTailwindcss />}
                   name={"Tailwind CSS"}
                   value={80}
-                />
+                /> */}
+                <IoLogoHtml5 size={50}/>
+                <IoLogoCss3 size={50}/>
               </div>
             </div>
           </div>
           {/* right box */}
           <div className="right relative flex-1 flex flex-wrap p-5 gap-10 items-center justify-center sm:w-full">
             <div className="first2 flex flex-col gap-10">
-              <SkillBox
+              {/* <SkillBox
                 logo={<IoLogoNodejs />}
                 black={"white"}
                 white={"black"}
@@ -73,24 +75,24 @@ const Skills = ({ darkMode }) => {
                 black={"white"}
                 white={"black"}
                 skill={"MongoDB"}
-              />
+              /> */}
             </div>
             <div className="last2 flex flex-col gap-10">
-              <SkillBox
+              {/* <SkillBox
                 logo={<SiExpress />}
                 black={"black"}
                 white={"white"}
                 skill={"Express Js"}
-              />
+              /> */}
             </div>
           </div>
         </div>
       </div>
       <div className=" flex pt-10 px-9">
-      <h1 className=" font-extrabold">Added Skills : </h1>
+      {/* <h1 className=" font-extrabold">Added Skills : </h1>
       [ <SiVite/><p className="text-[1.15rem] sm:text-[1rem] exsm:text-sm"> Vite , </p> 
      <SiGithub/><p className="text-[1.15rem] sm:text-[1rem] exsm:text-sm">GitHub</p>
-     ]
+     ] */}
       </div>
     </div>
   );
